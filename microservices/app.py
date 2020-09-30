@@ -194,15 +194,15 @@ def load_predict(data):
 def batch_pridict_load(df,Model):
     model = None
     if Model.upper() == 'SVC':
-        model = pickle.load(open('../model/SVC_model.sav', 'rb'))
+        model = pickle.load(open('model/SVC_model.sav', 'rb'))
     elif Model.upper() == 'DTC':
-        model = pickle.load(open('../model/DTC_model.sav', 'rb'))
+        model = pickle.load(open('model/DTC_model.sav', 'rb'))
     elif Model.upper() == 'GNB':
-        model = pickle.load(open('../model/GNB_model.sav', 'rb'))
+        model = pickle.load(open('model/GNB_model.sav', 'rb'))
     elif Model.upper() == 'KNN':
-        model = pickle.load(open('../model/KNN_model.sav', 'rb'))
+        model = pickle.load(open('model/KNN_model.sav', 'rb'))
     elif Model.upper() == 'RFC':
-        model = pickle.load(open('../model/RFC_model.sav', 'rb'))
+        model = pickle.load(open('model/RFC_model.sav', 'rb'))
     else :
         msg_dict = {}
         msg_dict['msg'] = 'No such model exists'
