@@ -3,13 +3,13 @@
 </h1>
 
 ## Setup
-The file docker_vm_ip.json contains the docker VM local IP Address. If the docker VM is set to bridged local network or host only it will have its own local IP. 
+The file `microservices/docker_vm_ip.json` contains the docker VM local IP Address. If the docker VM is set to bridged local network or host only it will have its own local IP. 
 Default Docker VM is localhost. My Docker VM IP is 192.168.99.100. Please change according to your requirement.
 
 Execute the setup.sh file 
 
 ## Overview
-Upon completition of setup the three docker container are spun up with images docker_eder_postgress_image_landing, 
+Upon completition of setup three docker container are spun up with images docker_eder_postgress_image_landing, 
 docker_eder_postgress_image_target, docker_eder_miroservices_image.
 
 ### docker_eder_postgress_image_landing
