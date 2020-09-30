@@ -82,5 +82,6 @@ The microservice has three apis:
             }
        response :
          done
-      
+       comments:
+         The predictions is loaded into the target table along with timestamp of when it was predicted.
     
