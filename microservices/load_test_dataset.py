@@ -6,7 +6,7 @@ import json
 
 def getPostgresConnection_load():
     ip = None
-    with open('../docker_vm_ip.json') as f:
+    with open('docker_vm_ip.json') as f:
        ip = json.load(f)['docker_vm_ip']
     conn = psycopg2.connect(
         host=ip,

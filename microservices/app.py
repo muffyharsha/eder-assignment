@@ -19,7 +19,7 @@ cors = CORS(app, resources={
 
 })
 ip = None
-with open('../docker_vm_ip.json') as f:
+with open('docker_vm_ip.json') as f:
    ip = json.load(f)['docker_vm_ip']
 def age_preprocess(df):
 
