@@ -9,7 +9,7 @@ Default Docker VM is localhost. My Docker VM IP is 192.168.99.100. Please change
 Execute the setup.sh file 
 
 ## Overview
-Upon completition of setup the three docker container are spun up with images docker_eder_postgress_image_landing, 
+Upon completition of setup three docker container are spun up with images docker_eder_postgress_image_landing, 
 docker_eder_postgress_image_target, docker_eder_miroservices_image.
 
 ### docker_eder_postgress_image_landing
